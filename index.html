@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Pagina Web</title>
+</head>
+
+<body>
+  <header>
+    <h1>Bienvenidos a Mi Página Web</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h2>Introducción</h2>
+      <p>Nessuno può sfuggire al destino scelto, rimane solo il risultato che voi sarete distrutti. L'eterna cima esiste solo per me. Puoi cantare canzoni di tristezza nel mondo senza tempo</p>
+
+      <article>
+        <h2>Artículo Destacado</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus, mauris et dignissim elementum, nunc leo hendrerit est, sit amet congue nisl massa ac eros. Integer nec suscipit odio, dictum efficitur felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus luctus massa vitae ex rutrum, et accumsan nisl molestie. Nulla pellentesque augue sit amet metus consectetur fringilla. Morbi sit amet pulvinar neque, in ornare nulla. Sed condimentum maximus sagittis. Praesent at erat eget neque condimentum venenatis non in neque.</p>
+        <ul>
+          <li>Punto 1: Argumentos para el punto 1</li>
+          <li>Punto 2: Argumentos para el punto 2</li>
+          <li>Punto 3: Argumentos para el punto 3</li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <h2>Galeria de Imágenes</h2>
+      <img src="./assets/foto-1.jpg" alt="Imagen de gato 1">
+      <img src="./assets/foto-2.jpg" alt="Imagen de gato 2">
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form action="">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" required>
+
+        <label for="">Contraseña:</label>
+        <input type="password" id="contrasenia" required>
+
+        <label for="motivo">Motivo de contacto:</label>
+        <select name="motivo" id="motivo" required>
+          <option value="consulta">Consulta</option>
+          <option value="reclamo">Reclamo</option>
+          <option value="sugerencia">Sugerencia</option>
+          <option value="sugerencia">Soporte</option>
+        </select>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <section style="display: flex; flex-direction: column;">
+      <h2>Multimedia</h2>
+      <video controls style="width: 30%;">
+        <source src="./assets/video.mp4" type="video/mp4">
+      </video>
+      <audio controls>
+        <source src="./assets/audio.mp3" type="audio/mp3">
+      </audio>
+
+    </section>
+
+    <section id="sobre-nosotros">
+
+    </section>
+    
+  </main>
+
+  <footer>
+    <p>© 2025 Mi Página Web - Todos los derechos reservados</p>
+      <ul id="sobre-nosotros">
+        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+        <li><a href="https://x.com/home/" target="_blank">Twitter</a></li>
+        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+      </ul>
+  </footer>
+</body>
+
+</html>
